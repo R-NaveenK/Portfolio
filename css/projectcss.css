@@ -6,7 +6,7 @@ body{
     
     background-color: #e8f0ff;
     background: -webkit-linear-gradient(top , #ffffff 0%, #e8f0ff 100%);
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 5%;
     margin-bottom: auto;
     margin-right: 5%;
@@ -19,6 +19,7 @@ body{
     list-style-type: none;
     margin-right: 10px;
     float:right;
+    
 
 }
 #main_nav li{
@@ -41,46 +42,18 @@ body{
 #main_nav a.current{
     color:gold;
 }
-
-div a{
-    text-decoration: none;
-    color: gray ;
-    padding: 6px 67px;
-    border: 0px solid yellow ;
-    background-color: gold;
-    border-radius: 20px;
-    margin: 8px;
-}
-
-div a:hover{
-    color:gold;
-    background-color: gray;
-
-}
-
-
-img{
-    border-radius: 10px;
-}
-
 h1{
     font-size: 48px;
     color:#1f2937;
+    padding: 0%;
 }
 
-p{
-    width: 90%;
-    text-align: justify;
-}
+.box{
+    border: 1px solid gold;
+    border-radius: 8px;
+    float: left;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 4px 4px 5px 5px rgb(255, 215, 0 , 0.6);;
 
-table p{
-    margin: 0%;
-}
-
-div p a{
-    margin-left: 0px;
-}
-
-table p{
-    line-height: 2;
 }
